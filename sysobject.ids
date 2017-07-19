@@ -1,4 +1,4 @@
-# list of SysObject ID's 
+# list of SysObject ID's
 #
 # sources:
 # http://www.iana.org/assignments/enterprise-numbers/enterprise-numbers
@@ -5209,6 +5209,9 @@
 5624.2.1.137	Enterasys	NETWORKING	B5G124-48P2
 5624.2.1.140	Enterasys	NETWORKING	B5K125-48
 5624.2.1.141	Enterasys	NETWORKING	B5K125-48P2
+5624.2.1.150	Enterasys	NETWORKING	C5K175-24
+5624.2.1.157	Enterasys	NETWORKING	A4H124-24
+5624.2.1.159	Enterasys	NETWORKING	A4H124-48
 5624.2.2.220	Enterasys	NETWORKING	C2H124-48
 5624.2.2.283	Enterasys	NETWORKING	C2G124-24
 5624.2.2.284	Enterasys	NETWORKING	C2G124-48
