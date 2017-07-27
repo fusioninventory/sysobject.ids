@@ -13,7 +13,31 @@ Actually it is only supported by
 
 # Contribution
 
-Feel free to open an [issue](https://github.com/fusioninventory/sysobject.ids/issues) if you have any product supporting SNMP and you want to be detected by FusionInventory Agent.
+Feel free to open an [issue](https://github.com/fusioninventory/sysobject.ids/issues) if you have any product supporting SNMP and you want to be discovered and inventoried by [FusionInventory Agent](https://github.com/fusioninventory/fusioninventory-agent) NetDiscovery and NetInventory tasks.
+
+The `sysobject.ids` file is a text database mapping the SysObjectID snmp variable (`.1.3.6.1.2.1.1.2`) with manufacturer, type and model. It may also map to dedicated external module which can help to handle more complex case.
+
+You can help populating the database by providing the output of following command (if available under linux, or any snmp walk more complete output):
+```
+# snmpget -v2c -c public "serverIP" 1.3.6.1.2.1.1.2.0
+```
+
+The following one, from a computer with [FusionInventory Agent](https://github.com/fusioninventory/fusioninventory-agent) installed, can also quickly help us:
+```
+# fusioninventory-netinventory --credentials version:2c,community:public --debug --host "serverIP"
+```
+
+As with the SysObjectID snmp variable content, you should provide the device related and expected manufacturer, type and model strings.
+
+The device type can be one of the following types:
+* COMPUTER
+* NETWORKING
+* PRINTER
+* STORAGE
+* POWER
+* PHONE
+* VIDEO
+* KVM
 
 # Release
 
