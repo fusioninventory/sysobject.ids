@@ -3797,28 +3797,28 @@
 1573	McAfee	NETWORKING
 1573.2.1	McAfee	NETWORKING	SideWinder 7
 
-1588   IBM	IBM	STORAGE	Fibre Channel Switch
+1588	Brocade	STORAGE	Fibre Channel Switch
 1588.2.1.1	Brocade	NETWORKING	Switch
-1588.2.1.1.1	IBM	STORAGE	Fibre Channel Switch
+1588.2.1.1.1	Brocade	STORAGE	2109-F16
 1588.2.1.1.1.55	Brocade	NETWORKING	Fiber Channel Switch
 1588.2.1.1.1.62	Brocade	NETWORKING	Fibre Channel Switch
 1588.2.1.1.2	Brocade	NETWORKING	2800
-1588.2.1.1.22	IBM	STORAGE	Fibre Channel Switch
+1588.2.1.1.22	Brocade	STORAGE	Fibre Channel Switch
 1588.2.1.1.27	Brocade	NETWORKING	Switch
-1588.2.1.1.29	IBM	STORAGE	Fibre Channel Switch
-1588.2.1.1.32	IBM	STORAGE	Fibre Channel Switch
+1588.2.1.1.29	Brocade	STORAGE	Fibre Channel Switch
+1588.2.1.1.32	Brocade	STORAGE	Fibre Channel Switch
 1588.2.1.1.34	Brocade	NETWORKING	Fiber Channel Switch
-1588.2.1.1.37	IBM	STORAGE	Brocade 4Gb SAN Switch Module
+1588.2.1.1.37	Brocade	STORAGE	Brocade 4Gb SAN Switch Module
 1588.2.1.1.46	Brocade	NETWORKING	Fibre Channel Switch
 1588.2.1.1.64	Brocade	NETWORKING	Fiber Channel Switch
-1588.2.1.1.71	IBM	STORAGE	Fibre Channel Switch
-1588.2.1.1.72	IBM	STORAGE	Fibre Channel Switch
-1588.2.1.1.83	IBM	STORAGE	Fibre Channel Switch 2498
+1588.2.1.1.71	Brocade	STORAGE	Fibre Channel Switch
+1588.2.1.1.72	Brocade	STORAGE	Fibre Channel Switch
+1588.2.1.1.83	Brocade	STORAGE	Fibre Channel Switch 2498
 1588.2.1.1.118	Brocade	NETWORKING	Fibre Channel Switch
 1588.2.1.1.120	Brocade	NETWORKING	Fibre Channel Switch
-1588.2.1.3	IBM	STORAGE	Fibre Channel Switch
-1588.2.2.1.1.1.2	Brocade	NETWORKING	Fibre Channel Switch
-1588.2.2.1.1.1.5	Brocade	NETWORKING	Fibre Channel Switch
+1588.2.1.3	Brocade	STORAGE	Access Gateway
+1588.2.2.1.1.1.2	Brocade	NETWORKING	VDX6720-60
+1588.2.2.1.1.1.5	Brocade	NETWORKING	VDX6710
 1588.3.3.1.131	Brocade	NETWORKING	Fibre Channel Switch
 1588.3.3.1.151	Brocade	NETWORKING	Fibre Channel Switch
 1588.3.3.1.1000	Brocade	NETWORKING	Fibre Channel Switch
