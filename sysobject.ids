@@ -1582,8 +1582,9 @@
 11.1	Hewlett-Packard	PRINTER
 11.2.3.2	Hewlett-Packard	COMPUTER
 11.2.3.2.2	Hewlett-Packard	COMPUTER
-11.2.3.2.3	Hewlett-Packard	COMPUTER
+11.2.3.2.3	Hewlett-Packard	COMPUTER	HP800
 11.2.3.2.5	Hewlett-Packard	COMPUTER
+11.2.3.2.6	Hewlett-Packard	COMPUTER	Itanium
 11.2.3.7.1.1	Hewlett-Packard	NETWORKING	AdvanceStack 10 10
 11.2.3.7.1.2	Hewlett-Packard	NETWORKING	AdvanceStack Remote Bridge
 11.2.3.7.1.3	Hewlett-Packard	NETWORKING	AdvanceStack EtherTwist LAN
@@ -1608,7 +1609,8 @@
 11.2.3.7.2.10	Hewlett-Packard	NETWORKING	AdvanceStack Router 250
 11.2.3.7.2.11	Hewlett-Packard	NETWORKING	AdvanceStack Router 255
 11.2.3.7.2.12	Hewlett-Packard	NETWORKING	AdvanceStack Router 210
-11.2.3.7.5.1	Hewlett-Packard	NETWORKING	AdvanceStack Ethertwist Hub
+11.2.3.7.3.9	Hewlett-Packard	NETWORKING	DTC22
+11.2.3.7.5.1	Hewlett-Packard	NETWORKING	AdvanceStack EtherTwist Hub-12
 11.2.3.7.5.2	Hewlett-Packard	NETWORKING	AdvanceStack Hub
 11.2.3.7.5.3	Hewlett-Packard	NETWORKING	AdvanceStack Fiber-Optic Hub
 11.2.3.7.5.4	Hewlett-Packard	NETWORKING	AdvanceStack EtherTwist Hub PLUS/48
@@ -1631,6 +1633,7 @@
 11.2.3.7.5.21	Hewlett-Packard	NETWORKING	10Base-T Hub-24M
 11.2.3.7.5.22	Hewlett-Packard	NETWORKING	100Base-T Hub-12M
 11.2.3.7.5.23	Hewlett-Packard	NETWORKING	100Base-T Hub-24M
+11.2.3.7.8.2.5	Hewlett-Packard	NETWORKING	AdvanceStack 10BT Switching
 11.2.3.7.8.5.2	Hewlett-Packard	NETWORKING	3800 Stack
 11.2.3.7.8.5.3	Hewlett-Packard	NETWORKING	2920 Stack
 11.2.3.7.11	Hewlett-Packard	NETWORKING	Unknown Switches
@@ -1678,8 +1681,8 @@
 11.2.3.7.11.33.4.1.1	Hewlett-Packard	NETWORKING	ProLiant C-Class BladeSystem GbE2c Ethernet Blade Switch
 11.2.3.7.11.33.5.1.1	Hewlett-Packard	NETWORKING	ProLiant BL p-Class C-GbE2C Ethernet Blade Switch
 11.2.3.7.11.34	Hewlett-Packard	NETWORKING	ProCurve 2626 (J4900A)
-11.2.3.7.11.35	Hewlett-Packard	NETWORKING	ProCurve 2650-PWR (J8165A)
-11.2.3.7.11.36	Hewlett-Packard	NETWORKING	ProCurve 2626-PWR (J8164A)
+11.2.3.7.11.35	Hewlett-Packard	NETWORKING	ProCurve 2650-PoE (J8165A)
+11.2.3.7.11.36	Hewlett-Packard	NETWORKING	ProCurve 2626-PoE (J8164A)
 11.2.3.7.11.37	Hewlett-Packard	NETWORKING	Wireless Access Point AP420WL (J8130A)
 11.2.3.7.11.38	Hewlett-Packard	NETWORKING	Wireless Access Point AP520WL (J8133A)
 11.2.3.7.11.39	Hewlett-Packard	NETWORKING	Access Controller 720WL (J8153A)
@@ -1688,24 +1691,25 @@
 11.2.3.7.11.42	Hewlett-Packard	NETWORKING	ProCurve Switch 3400cl-24G (J4905A)
 11.2.3.7.11.43	Hewlett-Packard	NETWORKING	ProCurve Switch 3400cl-48G (J4906A)
 11.2.3.7.11.44	Hewlett-Packard	NETWORKING	ProCurve 2650 (J4899B)
-11.2.3.7.11.45	Hewlett-Packard	NETWORKING	ProCurve 2626 (J4900B)
+11.2.3.7.11.45	Hewlett-Packard	NETWORKING	ProCurve 2626B (J4900B)
 11.2.3.7.11.46	Hewlett-Packard	NETWORKING	ProCurve 5404yl (J8718A)
 11.2.3.7.11.47	Hewlett-Packard	NETWORKING	ProCurve 5408yl (J8719A)
 11.2.3.7.11.48	Hewlett-Packard	NETWORKING	ProCurve 6400 (J8433A)
-11.2.3.7.11.49	Hewlett-Packard	NETWORKING	ProCurve 6400 (J8474A)
+11.2.3.7.11.49	Hewlett-Packard	NETWORKING	ProCurve 6410 (J8474A)
 11.2.3.7.11.50	Hewlett-Packard	NETWORKING	ProCurve 5406zl (J8697A)
 11.2.3.7.11.50.14	Hewlett-Packard	NETWORKING	Wireless Service zl Module
-11.2.3.7.11.50.15	Hewlett-Packard	NETWORKING	Wireless Service zl Module
+11.2.3.7.11.50.15	Hewlett-Packard	NETWORKING	Redundant Wireless Service zl Module
+11.2.3.7.11.50.17	Hewlett-Packard	NETWORKING	TMS zl Module
 11.2.3.7.11.50.41	Hewlett-Packard	NETWORKING	MSM775 zl Premium Controller Module/Advanced Services v2 zl Module w/ HDD&SSD
 11.2.3.7.11.51	Hewlett-Packard	NETWORKING	ProCurve 5412zl (J8698A)
 11.2.3.7.11.52	Hewlett-Packard	NETWORKING	ProCurve 4204vl (J8770A)
 11.2.3.7.11.53	Hewlett-Packard	NETWORKING	ProCurve 4208vl (J8773A)
 11.2.3.7.11.54	Hewlett-Packard	NETWORKING	ProCurve 9400 (J8453A)
-11.2.3.7.11.55	Hewlett-Packard	NETWORKING	ProCurve 2608-PWR (J8762A)
+11.2.3.7.11.55	Hewlett-Packard	NETWORKING	ProCurve 2600-8-PoE (J8762A)
 11.2.3.7.11.56	Hewlett-Packard	NETWORKING	ProCurve 4202vl-48G (J8771A)
 11.2.3.7.11.57	Hewlett-Packard	NETWORKING	ProCurve 4202vl-72 (J8772A)
-11.2.3.7.11.58	Hewlett-Packard	NETWORKING	ProCurve Switch 3500yl-24G (J8692A)
-11.2.3.7.11.59	Hewlett-Packard	NETWORKING	ProCurve Switch 3500yl-48G (J8693A)
+11.2.3.7.11.58	Hewlett-Packard	NETWORKING	ProCurve Switch 3500yl-24G-PoE (J8692A)
+11.2.3.7.11.59	Hewlett-Packard	NETWORKING	ProCurve Switch 3500yl-48G-PoE (J8693A)
 11.2.3.7.11.60	Hewlett-Packard	NETWORKING	ProCurve 6200yl-24G (J8992A)
 11.2.3.7.11.61	Hewlett-Packard	NETWORKING	ProCurve 2510-24 (J9019A)
 11.2.3.7.11.62	Hewlett-Packard	NETWORKING	ProCurve 2510-48 (J9020A)
@@ -1714,7 +1718,7 @@
 11.2.3.7.11.65	Hewlett-Packard	NETWORKING	ProCurve 1800-24G (J9028A)
 11.2.3.7.11.66	Hewlett-Packard	NETWORKING	ProCurve 1800-8G (J9029A)
 11.2.3.7.11.67	Hewlett-Packard	NETWORKING	ProCurve (J9038A)
-11.2.3.7.11.68	Hewlett-Packard	NETWORKING	ProCurve 2900-48g (J9050A)
+11.2.3.7.11.68	Hewlett-Packard	NETWORKING	ProCurve 2900-48G (J9050A)
 11.2.3.7.11.69	Hewlett-Packard	NETWORKING	ProCurve 2900-24G (J9049A)
 11.2.3.7.11.70	Hewlett-Packard	NETWORKING	ProCurve 4202vl-68G (J9032A)
 11.2.3.7.11.71	Hewlett-Packard	NETWORKING	4202vl-68
@@ -1724,9 +1728,9 @@
 11.2.3.7.11.75	Hewlett-Packard	NETWORKING	ProCurve 1700-24 (J9080A)
 11.2.3.7.11.76	Hewlett-Packard	NETWORKING	ProCurve 2610-24
 11.2.3.7.11.77	Hewlett-Packard	NETWORKING	ProCurve 2610-48
-11.2.3.7.11.78	Hewlett-Packard	NETWORKING	ProCurve 2610-24-PWR
-11.2.3.7.11.79	Hewlett-Packard	NETWORKING	ProCurve 2610-48-PWR
-11.2.3.7.11.80	Hewlett-Packard	NETWORKING	ProCurve 2610-24/12-PWR (J9086A)
+11.2.3.7.11.78	Hewlett-Packard	NETWORKING	ProCurve 2610-24-PoE
+11.2.3.7.11.79	Hewlett-Packard	NETWORKING	ProCurve 2610-48-PoE
+11.2.3.7.11.80	Hewlett-Packard	NETWORKING	ProCurve 2610-24/12-PoE (J9086A)
 11.2.3.7.11.81	Hewlett-Packard	NETWORKING	ProCurve 1800-24G-B (J9028B)
 11.2.3.7.11.82	Hewlett-Packard	NETWORKING	ProCurve 2626C
 11.2.3.7.11.83	Hewlett-Packard	NETWORKING	ProCurve 2650 (J4899C)
@@ -1741,9 +1745,10 @@
 11.2.3.7.11.95	Hewlett-Packard	NETWORKING	ProCurve 2520-24-PoE (J9138A)
 11.2.3.7.11.96	Hewlett-Packard	NETWORKING	ProCurve 2520G-8-PoE (J9298A)
 11.2.3.7.11.97	Hewlett-Packard	NETWORKING	ProCurve 2520G-24-PoE (J9299A)
-11.2.3.7.11.98	Hewlett-Packard	NETWORKING	ProCurve 6600ml-24X (J9265A)
+11.2.3.7.11.98	Hewlett-Packard	NETWORKING	ProCurve 6600ml-24XG (J9265A)
 11.2.3.7.11.100	Hewlett-Packard	NETWORKING	ProCurve 6600ml-24G (J9263A)
 11.2.3.7.11.101	Hewlett-Packard	NETWORKING	ProCurve 6600ml-24G-4XG (J9264A)
+11.2.3.7.11.102	Hewlett-Packard	NETWORKING	DCM Controller (J9445A)
 11.2.3.7.11.103	Hewlett-Packard	NETWORKING	ProCurve 1810G-8 (J9449A)
 11.2.3.7.11.104	Hewlett-Packard	NETWORKING	ProCurve 1810G-24 (J9450A)
 11.2.3.7.11.105	Hewlett-Packard	NETWORKING	ProCurve Switch 6600-48G-4XG (J9452A)
@@ -1793,7 +1798,7 @@
 11.2.3.7.11.152	Hewlett-Packard	NETWORKING	2920-24G
 11.2.3.7.11.153	Hewlett-Packard	NETWORKING	2920-24G-PoE+
 11.2.3.7.11.154	Hewlett-Packard	NETWORKING	2920-48G
-11.2.3.7.11.155	Hewlett-Packard	NETWORKING	2920-48G-POE+
+11.2.3.7.11.155	Hewlett-Packard	NETWORKING	2920-48G-PoE+
 11.2.3.7.11.158	Hewlett-Packard	NETWORKING	PS1810-8G
 11.2.3.7.11.159	Hewlett-Packard	NETWORKING	PS1810-24G
 11.2.3.7.11.160	Hewlett-Packard	NETWORKING	5406R zl2
@@ -2023,6 +2028,7 @@
 43.1.8.77	3Com	NETWORKING	Baseline 2250-SFP Plus
 43.1.8.78	3Com	NETWORKING	Baseline S2426
 43.1.9.13.1.2.1	3Com	NETWORKING	Corebuilder 9000
+43.1.9.13.1.2.5	3Com	NETWORKING	Corebuilder 9000-4P
 43.1.9.13.3.1	3Com	NETWORKING	Corebuilder 9000
 43.1.9.13.3.1.1	3Com	NETWORKING	S4007
 43.1.9.13.3.1.2	3Com	NETWORKING	S4007R
@@ -2181,12 +2187,13 @@
 43.1.21.7	3Com	NETWORKING	NJ240
 43.10.27.4.1	3Com	NETWORKING	SuperStack2-PS40
 43.10.27.4.1.1.1	3Com	NETWORKING	SuperStack2
-43.10.27.4.1.2.1	3Com	NETWORKING	SuperStack 1100
+43.10.27.4.1.2.1	3Com	NETWORKING	SuperStack Switch 1100-12P
 43.10.27.4.1.2.2	3Com	NETWORKING	SuperStack 3300
 43.10.27.4.1.2.4	3Com	NETWORKING	SuperStack 4400
 43.10.27.4.1.2.5	3Com	NETWORKING	SuperStack 4900
-43.10.27.4.1.2.10	3Com	NETWORKING	Switch 40x0
+43.10.27.4.1.2.10	3Com	NETWORKING	SuperStack Switch 1100-24P
 43.10.27.4.1.2.11	3Com	NETWORKING	SuperStack 4200
+43.48.1.1.5	3Com	NETWORKING	VCX-7005
 
 45	Nortel	NETWORKING
 45.1.3.2	Nortel	NETWORKING	SynopticsHub
@@ -3013,7 +3020,7 @@
 248.14.10.30	Hirschmann	NETWORKING	MS20
 248.14.10.31	Hirschmann	NETWORKING	MS30
 248.14.10.40	Hirschmann	NETWORKING	Railswitch 20
-248.14.10.41	Hirschmann	NETWORKING	Railswitch 40
+248.14.10.41	Hirschmann	NETWORKING	Railswitch 30
 248.14.10.50	Hirschmann	NETWORKING	MACH4002-48-4G
 248.14.10.60	Hirschmann	NETWORKING	Octopus24M
 248.14.10.70	Hirschmann	NETWORKING	MACH4002-24G
@@ -3835,10 +3842,11 @@
 1588.2.1.1.64	Brocade	NETWORKING	Fiber Channel Switch
 1588.2.1.1.71	Brocade	STORAGE	Fibre Channel Switch
 1588.2.1.1.72	Brocade	STORAGE	Fibre Channel Switch
+1588.2.1.1.82	Brocade	STORAGE	Fibre Channel Switch 8G-24P
 1588.2.1.1.83	Brocade	STORAGE	Fibre Channel Switch 2498
 1588.2.1.1.118	Brocade	NETWORKING	Fibre Channel Switch
 1588.2.1.1.120	Brocade	NETWORKING	Fibre Channel Switch
-1588.2.1.3	Brocade	STORAGE	Access Gateway
+1588.2.1.3	Brocade	STORAGE	Fibre Channel Switch 8G-24P
 1588.2.2.1.1.1.2	Brocade	NETWORKING	VDX6720-60
 1588.2.2.1.1.1.5	Brocade	NETWORKING	VDX6710
 1588.3.3.1.131	Brocade	NETWORKING	Fibre Channel Switch
@@ -4099,7 +4107,7 @@
 1991.1.3.1.1	Foundry	NETWORKING	FastIron Workgroup
 1991.1.3.1.2	Foundry	NETWORKING	FastIron Backbone Switch
 1991.1.3.2.1	Foundry	NETWORKING	NetIron Router
-1991.1.3.3.1	Foundry	NETWORKING	ServerIron Switch
+1991.1.3.3.1	Foundry	NETWORKING	ServerIron XL/G
 1991.1.3.3.2	Foundry	NETWORKING	ServerIron Switch
 1991.1.3.3.3	Foundry	NETWORKING	ServerIron XL with Transparent Cache Switching (TCS)
 1991.1.3.4.1	Foundry	NETWORKING	TurboIron Switch
@@ -4108,9 +4116,11 @@
 1991.1.3.5.2	Foundry	NETWORKING	TurboIron/8 Router
 1991.1.3.5.3	Foundry	NETWORKING	ServerIron 4G-SSL
 1991.1.3.5.4	Foundry	NETWORKING	ServerIron 800 Switch
+1991.1.3.6	Foundry	NETWORKING	BigIron 4000
 1991.1.3.6.1	Foundry	NETWORKING	BigIron 4000 Switch
 1991.1.3.6.2	Foundry	NETWORKING	BigIron 4000 Router
 1991.1.3.6.3	Foundry	NETWORKING	BigServerIron 4000
+1991.1.3.7	Foundry	NETWORKING	BigIron 8000
 1991.1.3.7.1	Foundry	NETWORKING	BigIron 8000 Switch
 1991.1.3.7.2	Foundry	NETWORKING	BigIron 8000 Router
 1991.1.3.7.3	Foundry	NETWORKING	BigServerIron 8000
@@ -4132,8 +4142,8 @@
 1991.1.3.16.2	Foundry	NETWORKING	FastIron III Router
 1991.1.3.17.1	Foundry	NETWORKING	FastIron III Gigabit Copper Switch
 1991.1.3.17.2	Foundry	NETWORKING	FastIron III Gigabit Copper Router
-1991.1.3.18.1	Foundry	NETWORKING	ServerIron Switch
-1991.1.3.18.2	Foundry	NETWORKING	ServerIron GT-E2404CF
+1991.1.3.18.1	Foundry	NETWORKING	ServerIron 400 Switch
+1991.1.3.18.2	Foundry	NETWORKING	ServerIron 400 Router
 1991.1.3.19.1	Foundry	NETWORKING	ServerIron 800 Switch
 1991.1.3.19.2	Foundry	NETWORKING	ServerIron 800 Router
 1991.1.3.20.1	Foundry	NETWORKING	ServerIron 1500 Switch
@@ -4191,6 +4201,7 @@
 1991.1.3.34.2.3.2.2	Foundry	NETWORKING	FastIron X448 Plus 2XG Premium Edge Router (FES)
 1991.1.3.34.3.1.1.1	Foundry	NETWORKING	FastIron X424 Edge Switch (FES)
 1991.1.3.34.3.1.1.2	Foundry	NETWORKING	FastIron X424F Edge Switch Power Supply
+1991.1.3.34.3.3.1.1	Foundry	NETWORKING	FastIron X424F Plus 2XG Edge Switch
 1991.1.3.35.1.1.1.1	Foundry	NETWORKING	FastIron X424 Workgroup Switch (FES)
 1991.1.3.35.1.2.1.1	Foundry	NETWORKING	FastIron X424 Plus 1XG Workgroup Switch (FES)
 1991.1.3.35.1.3.1.1	Foundry	NETWORKING	FastIron X424 Plus 2XG Workgroup Switch (FES)
@@ -4226,7 +4237,7 @@
 1991.1.3.44.1.2	Foundry	NETWORKING	NetIron MLX 16000 Router
 1991.1.3.44.2.2	Foundry	NETWORKING	NetIron MLX 8K Router
 1991.1.3.44.3.1	Foundry	NETWORKING	NetIron MLX 4000 Switch
-1991.1.3.44.3.2	Foundry	NETWORKING	NetIron MLK 4K Router
+1991.1.3.44.3.2	Foundry	NETWORKING	NetIron MLK 4000 Router
 1991.1.3.45.1.3.1.1	Foundry	NETWORKING	FastIron FGS624P
 1991.1.3.45.2.2.1.1	Foundry	NETWORKING	FastIron FGS648P Switch
 1991.1.3.46.1.1.1.1	Brocade	NETWORKING	FLS 624
@@ -4257,7 +4268,8 @@
 1991.1.3.47.12.2	Foundry	NETWORKING	ServerIron ADX 1000
 1991.1.3.47.14.2	Brocade	NETWORKING	ServerIron ADX 4000
 1991.1.3.48.1.1	Foundry	NETWORKING	FastIron GS FGS648P-PoE 48 Port Switch
-1991.1.3.48.2.3	Foundry	NETWORKING	FCX648S
+1991.1.3.48.2.3	Foundry	NETWORKING	FCX 648S-HPoE
+1991.1.3.48.5.1	Foundry	NETWORKING	ICX 6450-24-HPoE
 1991.1.3.49.1	Foundry	NETWORKING	NetIron CES 2024F
 1991.1.3.49.2	Foundry	NETWORKING	NetIron CES 2024C
 1991.1.3.49.5	Foundry	NETWORKING	NetIron CES Switch
@@ -4269,6 +4281,8 @@
 1991.1.3.54.2.2.1.1	Foundry	NETWORKING	Fast Iron Switch FCX 648S-HPoE
 1991.1.3.54.2.2.1.3	Foundry	NETWORKING	FCX 648S-HPoE
 1991.1.3.54.2.4.1.3	Foundry	NETWORKING	FCX 648
+1991.1.3.55.2.2	Foundry	NETWORKING	MLXe
+1991.1.3.55.3.2	Foundry	NETWORKING	MLXe
 1991.1.3.55.4.2	Brocade	NETWORKING	MLXe-32
 1991.1.3.57.1.1.1.1	Brocade	NETWORKING	ICX6430-24
 1991.1.5.1.1.4.2.1	Foundry	NETWORKING	FastIron 2402CF Switch
@@ -5086,8 +5100,10 @@
 3727.20	Western	NETWORKING	100-06
 
 3873	QLogic	NETWORKING
+3873.1.7	QLogic	NETWORKING	HP Blade System VC-FC-MPX110
 3873.1.9	QLogic	NETWORKING	SANbox 5802V
 3873.1.14	QLogic	NETWORKING	SANbox 5800V
+3873.1.16	QLogic	NETWORKING	HP Blade System VC-FC-MPX
 3873.1.31	Hewlett-Packard	NETWORKING	StorageWorks MEZ75
 
 3902	ZTE	NETWORKING
@@ -5263,6 +5279,8 @@
 4881.1.2.1.1.45	Ruijie	NETWORKING	NPE50-40
 4881.1.2.1.1.46	Ruijie	NETWORKING	RSR20-18
 4881.1.3.1.1.1	Ruijie	NETWORKING	WGP500
+
+4976	Hewlett-Packard	NETWORKING	Arcsight DL380
 
 4981	RiverDelta	NETWORKING
 4981.4.1.1.1.2.1.1	RiverDelta	NETWORKING	BSR1000R
@@ -5888,11 +5906,21 @@
 10734.1.3.31	Hewlett-Packard	NETWORKING	TippingPoint 110
 10734.1.3.32	Hewlett-Packard	NETWORKING	TippingPoint 330N
 10734.1.3.34	Hewlett-Packard	NETWORKING	TippingPoint 6100N
+10734.1.3.35	Hewlett-Packard	NETWORKING	TippingPoint 7100NX
 10734.1.3.36 	Hewlett-Packard	NETWORKING	TippingPoint 5200NX
 10734.1.3.44 	Hewlett-Packard	NETWORKING	TippingPoint 2600NX
 10734.1.3.45 	Hewlett-Packard	NETWORKING	TippingPoint 6200NX
 10734.1.3.46 	Hewlett-Packard	NETWORKING	TippingPoint 7500NX
 10734.1.3.47 	Hewlett-Packard	NETWORKING	TippingPoint TPS 440
+10734.1.4.5	Hewlett-Packard	NETWORKING	TippingPoint 2500N
+10734.1.5.1	Hewlett-Packard	NETWORKING	TippingPoint Core Controller
+10734.1.9.1	Hewlett-Packard	NETWORKING	TippingPoint S1020F
+10734.1.9.2	Hewlett-Packard	NETWORKING	TippingPoint S1050F
+10734.1.9.3	Hewlett-Packard	NETWORKING	TippingPoint S3010F
+10734.1.9.4	Hewlett-Packard	NETWORKING	TippingPoint S3020F
+10734.1.9.5	Hewlett-Packard	NETWORKING	TippingPoint S8005F
+10734.1.9.6	Hewlett-Packard	NETWORKING	TippingPoint S8010F
+10734.1.9.7	Hewlett-Packard	NETWORKING	TippingPoint S8020F
 
 10830	Apcon	NETWORKING
 10830.3.1	Apcon	NETWORKING	ACI-2058
@@ -6505,7 +6533,7 @@
 25506.1.204	H3C	NETWORKING	wcm-wx5002
 25506.1.205	H3C	NETWORKING	wcm-wcma
 25506.1.206	H3C	NETWORKING	MSR30-10
-25506.1.207	H3C	NETWORKING	S7503E
+25506.1.207	H3C	NETWORKING	S7502E
 25506.1.208	H3C	NETWORKING	S7503E
 25506.1.209	H3C	NETWORKING	S7506E
 25506.1.210	H3C	NETWORKING	S7506E-V
@@ -7604,7 +7632,7 @@
 25506.11.1.75	Hewlett-Packard	NETWORKING	A5500-48G-EITAA
 25506.11.1.76	Hewlett-Packard	NETWORKING	A5500-24G-PoE+EITAA
 25506.11.1.77	Hewlett-Packard	NETWORKING	A5500-48G-PoE+EITAA
-25506.11.1.78	Hewlett-Packard	NETWORKING	5920AF24XG
+25506.11.1.78	Hewlett-Packard	NETWORKING	A5830AF-24XG
 25506.11.1.79	Hewlett-Packard	NETWORKING	A5830AF-48G
 25506.11.1.80	Hewlett-Packard	NETWORKING	A5830AF-96G
 25506.11.1.81	Hewlett-Packard	NETWORKING	V1910-16G
