@@ -1643,8 +1643,13 @@
 11.2.3.7.5.22	Hewlett-Packard	NETWORKING	100Base-T Hub-12M
 11.2.3.7.5.23	Hewlett-Packard	NETWORKING	100Base-T Hub-24M
 11.2.3.7.8.2.5	Hewlett-Packard	NETWORKING	AdvanceStack 10BT Switching
+11.2.3.7.8.5.1	Hewlett-Packard	NETWORKING	AdvanceStack 10BT Stack
 11.2.3.7.8.5.2	Hewlett-Packard	NETWORKING	3800 Stack
 11.2.3.7.8.5.3	Hewlett-Packard	NETWORKING	2920 Stack
+11.2.3.7.8.5.4	Hewlett-Packard	NETWORKING	Aruba 3810 Stack
+11.2.3.7.8.5.5	Hewlett-Packard	NETWORKING	Aruba 2930 Stack
+11.2.3.7.8.5.6	Hewlett-Packard	NETWORKING	5400R VSF Stack
+11.2.3.7.8.5.7	Hewlett-Packard	NETWORKING	Aruba 2930M BPS Stack
 11.2.3.7.11	Hewlett-Packard	NETWORKING	Unknown Switches
 11.2.3.7.11.1	Hewlett-Packard	NETWORKING	AdvanceStack Switch 2000 (J3100A)
 11.2.3.7.11.2	Hewlett-Packard	NETWORKING	AdvanceStack Switch 2000B (J3100B)
@@ -1676,12 +1681,17 @@
 11.2.3.7.11.22	Hewlett-Packard	NETWORKING	ProCurve 3124 (J4851A)
 11.2.3.7.11.23	Hewlett-Packard	NETWORKING	ProCurve 4108GL (J4865A)
 11.2.3.7.11.24	Hewlett-Packard	NETWORKING	ProCurve Copper GE Blade for BH7800 BladeServer (A6713A)
+11.2.3.7.11.24.11	Hewlett-Packard	NETWORKING	A6713A 16+8-port 10/100T + Gig TX module
 11.2.3.7.11.25	Hewlett-Packard	NETWORKING	ProCurve SX Fiber Blade for BH7800 BladeServer (A6716A)
+11.2.3.7.11.25.12	Hewlett-Packard	NETWORKING	A6716A 16+8-port 10/100T + Gig SX module
 11.2.3.7.11.26	Hewlett-Packard	NETWORKING	ProCurve LX Fiber Blade for BH7800 BladeServer (A6717A)
+11.2.3.7.11.26.13	Hewlett-Packard	NETWORKING	A6717A 16+8-port 10/100T + Gig LX module
 11.2.3.7.11.27	Hewlett-Packard	NETWORKING	ProCurve 4104GL (J4887A)
 11.2.3.7.11.28	Hewlett-Packard	NETWORKING	ProCurve 9315M (J4874A)
 11.2.3.7.11.29	Hewlett-Packard	NETWORKING	ProCurve 2650 (J4899A)
+11.2.3.7.11.29.1	Hewlett-Packard	NETWORKING	2650 48-port 10/100-T + 2-port Gig module
 11.2.3.7.11.30	Hewlett-Packard	NETWORKING	ProCurve 6108 (J4902A)
+11.2.3.7.11.30.1	Hewlett-Packard	NETWORKING	6108 6-port 10/100/1000-TX + 2-port Gig module
 11.2.3.7.11.31	Hewlett-Packard	NETWORKING	ProCurve 2824 (J4903A)
 11.2.3.7.11.32	Hewlett-Packard	NETWORKING	ProCurve 2848 (J4904A)
 11.2.3.7.11.33	Hewlett-Packard	NETWORKING	Proliant Switch
@@ -1690,63 +1700,133 @@
 11.2.3.7.11.33.4.1.1	Hewlett-Packard	NETWORKING	ProLiant C-Class BladeSystem GbE2c Ethernet Blade Switch
 11.2.3.7.11.33.5.1.1	Hewlett-Packard	NETWORKING	ProLiant BL p-Class C-GbE2C Ethernet Blade Switch
 11.2.3.7.11.34	Hewlett-Packard	NETWORKING	ProCurve 2626 (J4900A)
+11.2.3.7.11.34.1	Hewlett-Packard	NETWORKING	2626 24-port 10/100-T + 2-port Gig module
 11.2.3.7.11.35	Hewlett-Packard	NETWORKING	ProCurve 2650-PoE (J8165A)
+11.2.3.7.11.35.1	Hewlett-Packard	NETWORKING	2650-PWR 48-port 10/100-T + 2-port Gig module
 11.2.3.7.11.36	Hewlett-Packard	NETWORKING	ProCurve 2626-PoE (J8164A)
+11.2.3.7.11.36.1	Hewlett-Packard	NETWORKING	2626-PWR 24-port 10/100-T + 2-port Gig module
 11.2.3.7.11.37	Hewlett-Packard	NETWORKING	Wireless Access Point AP420WL (J8130A)
 11.2.3.7.11.38	Hewlett-Packard	NETWORKING	Wireless Access Point AP520WL (J8133A)
 11.2.3.7.11.39	Hewlett-Packard	NETWORKING	Access Controller 720WL (J8153A)
 11.2.3.7.11.40	Hewlett-Packard	NETWORKING	Access Controller Server 740WL (J8154A)
 11.2.3.7.11.41	Hewlett-Packard	NETWORKING	Integrated Access Manager 760WL (J8155A)
 11.2.3.7.11.42	Hewlett-Packard	NETWORKING	ProCurve Switch 3400cl-24G (J4905A)
+11.2.3.7.11.42.1	Hewlett-Packard	NETWORKING	3400cl-24-port 10/100/1000-T + 4-port Gigabit module
 11.2.3.7.11.43	Hewlett-Packard	NETWORKING	ProCurve Switch 3400cl-48G (J4906A)
+11.2.3.7.11.43.1	Hewlett-Packard	NETWORKING	3400cl-48-port 10/100/1000-T + 4-port Gigabit module
 11.2.3.7.11.44	Hewlett-Packard	NETWORKING	ProCurve 2650 (J4899B)
+11.2.3.7.11.44.1	Hewlett-Packard	NETWORKING	2650 48-port 10/100-T + 2-port Gig module
 11.2.3.7.11.45	Hewlett-Packard	NETWORKING	ProCurve 2626B (J4900B)
+11.2.3.7.11.45.1	Hewlett-Packard	NETWORKING	2626 24-port 10/100-T + 2-port Gig module
 11.2.3.7.11.46	Hewlett-Packard	NETWORKING	ProCurve 5404yl (J8718A)
 11.2.3.7.11.47	Hewlett-Packard	NETWORKING	ProCurve 5408yl (J8719A)
 11.2.3.7.11.48	Hewlett-Packard	NETWORKING	ProCurve 6400 (J8433A)
 11.2.3.7.11.49	Hewlett-Packard	NETWORKING	ProCurve 6410 (J8474A)
 11.2.3.7.11.50	Hewlett-Packard	NETWORKING	ProCurve 5406zl (J8697A)
-11.2.3.7.11.50.14	Hewlett-Packard	NETWORKING	Wireless Service zl Module
-11.2.3.7.11.50.15	Hewlett-Packard	NETWORKING	Redundant Wireless Service zl Module
-11.2.3.7.11.50.17	Hewlett-Packard	NETWORKING	TMS zl Module
-11.2.3.7.11.50.41	Hewlett-Packard	NETWORKING	MSM775 zl Premium Controller Module/Advanced Services v2 zl Module w/ HDD&SSD
+11.2.3.7.11.50.1	Hewlett-Packard	NETWORKING	5400-24 port Gig-T
+11.2.3.7.11.50.2	Hewlett-Packard	NETWORKING	5400-24 port Gig-T zl Module
+11.2.3.7.11.50.3	Hewlett-Packard	NETWORKING	5400-Gig-T/SFP zl Module
+11.2.3.7.11.50.4	Hewlett-Packard	NETWORKING	5400-24 port SFP zl Module
+11.2.3.7.11.50.5	Hewlett-Packard	NETWORKING	5400-4 port 10-GbE zl Module
+11.2.3.7.11.50.6	Hewlett-Packard	NETWORKING	5400-4 port 10G CX4 zl Module
+11.2.3.7.11.50.7	Hewlett-Packard	NETWORKING	5400-yl Fixed Gig-T/SFP
+11.2.3.7.11.50.8	Hewlett-Packard	NETWORKING	5400-yl Fixed 24p Gig-T
+11.2.3.7.11.50.9	Hewlett-Packard	NETWORKING	5400-yl X2/CX4 10-GbE Module
+11.2.3.7.11.50.10	Hewlett-Packard	NETWORKING	5400-zl Switch Management Module
+11.2.3.7.11.50.14	Hewlett-Packard	NETWORKING	5400-Wireless Service zl Module
+11.2.3.7.11.50.15	Hewlett-Packard	NETWORKING	5400-Redundant Wireless Service zl Module
+11.2.3.7.11.50.16	Hewlett-Packard	NETWORKING	5400-Services zl Module
+11.2.3.7.11.50.17	Hewlett-Packard	NETWORKING	5400-TMS zl Module
+11.2.3.7.11.50.18	Hewlett-Packard	NETWORKING	5400-zl Data Center Connection Manager ONE Module
+11.2.3.7.11.50.19	Hewlett-Packard	NETWORKING	5400-24-Port 10/100/1000 PoE+ zl Module
+11.2.3.7.11.50.20	Hewlett-Packard	NETWORKING	5400-20-Port 10/100/1000 PoE+ with 4-Port SFP zl Module
+11.2.3.7.11.50.21	Hewlett-Packard	NETWORKING	5400-24-Port 10/100 PoE+ zl Module
+11.2.3.7.11.50.22	Hewlett-Packard	NETWORKING	5400-4-Port 10-GbE SFP+ zl Module
+11.2.3.7.11.50.23	Hewlett-Packard	NETWORKING	5400-yl SFP+/CX4 10G Module
+11.2.3.7.11.50.24	Hewlett-Packard	NETWORKING	5400-24 port Gig-T PoE+ v2 zl Module
+11.2.3.7.11.50.25	Hewlett-Packard	NETWORKING	5400-20-Port Gig-T PoE+ / 4-Port SFP v2 zl Module
+11.2.3.7.11.50.26	Hewlett-Packard	NETWORKING	5400-20-Port Gig-T PoE+ / 2-Port SFP+ zl Module
+11.2.3.7.11.50.27	Hewlett-Packard	NETWORKING	5400-24-Port SFP v2 zl Module
+11.2.3.7.11.50.28	Hewlett-Packard	NETWORKING	5400-8-Port 10GbE SFP+ v2 zl Module
+11.2.3.7.11.50.29	Hewlett-Packard	NETWORKING	5400-8-Port 10Gig-T LH zl Module
+11.2.3.7.11.50.30	Hewlett-Packard	NETWORKING	5400-24-Port 10/100 PoE+ zl Module
+11.2.3.7.11.50.31	Hewlett-Packard	NETWORKING	5400-20-Port Gig-T / 2-Port 10GbE SFP+ v2 zl Module
+11.2.3.7.11.50.32	Hewlett-Packard	NETWORKING	5400-20-Port Gig-T / 4-Port SFP v2 zl Module
+11.2.3.7.11.50.33	Hewlett-Packard	NETWORKING	5400-24-Port Gig-T v2 zl Module
+11.2.3.7.11.50.34	Hewlett-Packard	NETWORKING	5400-Advanced Services zl Module
+11.2.3.7.11.50.35	Hewlett-Packard	NETWORKING	5400-Extended Services zl Module
+11.2.3.7.11.50.36	Hewlett-Packard	NETWORKING	5400-AllianceONE zl Module
+11.2.3.7.11.50.37	Hewlett-Packard	NETWORKING	5400-12-Port Gig-T PoE+ / 12-Port SFP v2 zl Module
+11.2.3.7.11.50.41	Hewlett-Packard	NETWORKING	5400-MSM775 zl Premium Controller Module/Advanced Services v2 zl Module w/ HDD&SSD
 11.2.3.7.11.51	Hewlett-Packard	NETWORKING	ProCurve 5412zl (J8698A)
 11.2.3.7.11.52	Hewlett-Packard	NETWORKING	ProCurve 4204vl (J8770A)
+11.2.3.7.11.52.1	Hewlett-Packard	NETWORKING	4200-10/100 module
+11.2.3.7.11.52.2	Hewlett-Packard	NETWORKING	4200-10/100/1000 module
+11.2.3.7.11.52.3	Hewlett-Packard	NETWORKING	4200-miniGBIC module
+11.2.3.7.11.52.4	Hewlett-Packard	NETWORKING	4200-100FX module
+11.2.3.7.11.52.5	Hewlett-Packard	NETWORKING	4200-Gig-T vl module
+11.2.3.7.11.52.6	Hewlett-Packard	NETWORKING	4200-Gig-T/SFP vl module
+11.2.3.7.11.52.10	Hewlett-Packard	NETWORKING	4200-10-GbE X2 vl module
 11.2.3.7.11.53	Hewlett-Packard	NETWORKING	ProCurve 4208vl (J8773A)
 11.2.3.7.11.54	Hewlett-Packard	NETWORKING	ProCurve 9400 (J8453A)
 11.2.3.7.11.55	Hewlett-Packard	NETWORKING	ProCurve 2600-8-PoE (J8762A)
+11.2.3.7.11.55.1	Hewlett-Packard	NETWORKING	2600-8-PWR 8-port 10/100-T + 1-port Gig module
 11.2.3.7.11.56	Hewlett-Packard	NETWORKING	ProCurve 4202vl-48G (J8771A)
 11.2.3.7.11.57	Hewlett-Packard	NETWORKING	ProCurve 4202vl-72 (J8772A)
 11.2.3.7.11.58	Hewlett-Packard	NETWORKING	ProCurve Switch 3500yl-24G-PoE (J8692A)
 11.2.3.7.11.59	Hewlett-Packard	NETWORKING	ProCurve Switch 3500yl-48G-PoE (J8693A)
 11.2.3.7.11.60	Hewlett-Packard	NETWORKING	ProCurve 6200yl-24G (J8992A)
 11.2.3.7.11.61	Hewlett-Packard	NETWORKING	ProCurve 2510-24 (J9019A)
+11.2.3.7.11.61.1	Hewlett-Packard	NETWORKING	2510-Fixed 24-port 10/100-T module
 11.2.3.7.11.62	Hewlett-Packard	NETWORKING	ProCurve 2510-48 (J9020A)
+11.2.3.7.11.62.1	Hewlett-Packard	NETWORKING	2510-Fixed 48-port 10/100-T module
 11.2.3.7.11.63	Hewlett-Packard	NETWORKING	ProCurve 2810-24G (J9021A)
+11.2.3.7.11.63.1	Hewlett-Packard	NETWORKING	2810-Fixed 24-port 10/100/1000-T module
 11.2.3.7.11.64	Hewlett-Packard	NETWORKING	ProCurve 2810-48G (J9022A)
+11.2.3.7.11.64.1	Hewlett-Packard	NETWORKING	2810-Fixed 48-port 10/100/1000-T module
 11.2.3.7.11.65	Hewlett-Packard	NETWORKING	ProCurve 1800-24G (J9028A)
 11.2.3.7.11.66	Hewlett-Packard	NETWORKING	ProCurve 1800-8G (J9029A)
 11.2.3.7.11.67	Hewlett-Packard	NETWORKING	ProCurve (J9038A)
 11.2.3.7.11.68	Hewlett-Packard	NETWORKING	ProCurve 2900-48G (J9050A)
+11.2.3.7.11.68.11	Hewlett-Packard	NETWORKING	2900-yl Fixed Gig-T/SFP
+11.2.3.7.11.68.12	Hewlett-Packard	NETWORKING	2900-yl Fixed 24p Gig-T
+11.2.3.7.11.68.13	Hewlett-Packard	NETWORKING	2900-yl X2/CX4 10-GbE Module
 11.2.3.7.11.69	Hewlett-Packard	NETWORKING	ProCurve 2900-24G (J9049A)
 11.2.3.7.11.70	Hewlett-Packard	NETWORKING	ProCurve 4202vl-68G (J9032A)
 11.2.3.7.11.71	Hewlett-Packard	NETWORKING	4202vl-68
 11.2.3.7.11.72	Hewlett-Packard	NETWORKING	ProCurve 8212zl (J8715A)
+11.2.3.7.11.72.1	Hewlett-Packard	NETWORKING	8200zl Switch Management Module
+11.2.3.7.11.72.2	Hewlett-Packard	NETWORKING	8200zl Switch Fabric Module
+11.2.3.7.11.72.3	Hewlett-Packard	NETWORKING	8212zl Switch System Support Module
 11.2.3.7.11.73	Hewlett-Packard	NETWORKING	Access Controller 800
 11.2.3.7.11.74	Hewlett-Packard	NETWORKING	ProCurve 1700-8 (J9079A)
 11.2.3.7.11.75	Hewlett-Packard	NETWORKING	ProCurve 1700-24 (J9080A)
 11.2.3.7.11.76	Hewlett-Packard	NETWORKING	ProCurve 2610-24
+11.2.3.7.11.76.1	Hewlett-Packard	NETWORKING	2610-Fixed 24-port 10/100-T + 4-port Gigabit module
 11.2.3.7.11.77	Hewlett-Packard	NETWORKING	ProCurve 2610-48
+11.2.3.7.11.77.1	Hewlett-Packard	NETWORKING	2610-Fixed 48-port 10/100-T + 4-port Gigabit module
 11.2.3.7.11.78	Hewlett-Packard	NETWORKING	ProCurve 2610-24-PoE
+11.2.3.7.11.78.1	Hewlett-Packard	NETWORKING	2610-Fixed 24-port 10/100-T + 4-port Gigabit module
 11.2.3.7.11.79	Hewlett-Packard	NETWORKING	ProCurve 2610-48-PoE
+11.2.3.7.11.79.1	Hewlett-Packard	NETWORKING	2610-Fixed 48-port 10/100-T + 4-port Gigabit module
 11.2.3.7.11.80	Hewlett-Packard	NETWORKING	ProCurve 2610-24/12-PoE (J9086A)
+11.2.3.7.11.80.1	Hewlett-Packard	NETWORKING	2610-Fixed 24-port 10/100-T + 4-port Gigabit module
 11.2.3.7.11.81	Hewlett-Packard	NETWORKING	ProCurve 1800-24G-B (J9028B)
 11.2.3.7.11.82	Hewlett-Packard	NETWORKING	ProCurve 2626C
+11.2.3.7.11.82.1	Hewlett-Packard	NETWORKING	2626 24-port 10/100-T + 2-port Gig module
 11.2.3.7.11.83	Hewlett-Packard	NETWORKING	ProCurve 2650 (J4899C)
+11.2.3.7.11.83.1	Hewlett-Packard	NETWORKING	2650 48-port 10/100-T + 2-port Gig module
 11.2.3.7.11.84	Hewlett-Packard	NETWORKING	ProCurve 2910al-24G-PoE (J9146A)
+11.2.3.7.11.84.1	Hewlett-Packard	NETWORKING	2910al-Fixed 24p Gig-T/SFP module
+11.2.3.7.11.84.2	Hewlett-Packard	NETWORKING	2910al-10-GbE 2-port CX4
+11.2.3.7.11.84.3	Hewlett-Packard	NETWORKING	2910al-10-GbE 2-port SFP+
+11.2.3.7.11.84.4	Hewlett-Packard	NETWORKING	2910al-10-GbE 1-port passive CX4
 11.2.3.7.11.85	Hewlett-Packard	NETWORKING	ProCurve 2910al-48G-PoE
+11.2.3.7.11.85.1	Hewlett-Packard	NETWORKING	2910al-Fixed 48p Gig-T/SFP module
 11.2.3.7.11.86	Hewlett-Packard	NETWORKING	ProCurve 2910al-24G
+11.2.3.7.11.86.1	Hewlett-Packard	NETWORKING	2910al-Fixed 24p Gig-T/SFP module
 11.2.3.7.11.87	Hewlett-Packard	NETWORKING	ProCurve 2910al-48G
+11.2.3.7.11.87.1	Hewlett-Packard	NETWORKING	2910al-Fixed 48p Gig-T/SFP module
 11.2.3.7.11.88	Hewlett-Packard	NETWORKING	ProCurve 2510G-24
 11.2.3.7.11.89	Hewlett-Packard	NETWORKING	ProCurve 2510G-48
 11.2.3.7.11.90	Hewlett-Packard	NETWORKING	ProCurve 2510B-24
@@ -1755,6 +1835,12 @@
 11.2.3.7.11.96	Hewlett-Packard	NETWORKING	ProCurve 2520G-8-PoE (J9298A)
 11.2.3.7.11.97	Hewlett-Packard	NETWORKING	ProCurve 2520G-24-PoE (J9299A)
 11.2.3.7.11.98	Hewlett-Packard	NETWORKING	ProCurve 6600ml-24XG (J9265A)
+11.2.3.7.11.98.1	Hewlett-Packard	NETWORKING	6600ml Fixed 4p SFP+ Module
+11.2.3.7.11.98.2	Hewlett-Packard	NETWORKING	6600ml Fixed Gig-T/SFP Module
+11.2.3.7.11.98.3	Hewlett-Packard	NETWORKING	6600ml Fixed 24 Gig Module
+11.2.3.7.11.98.4	Hewlett-Packard	NETWORKING	6600ml Fixed 24 Gig DP Module
+11.2.3.7.11.98.5	Hewlett-Packard	NETWORKING	6600ml Fixed 24 Gig Non DP Module
+11.2.3.7.11.98.6	Hewlett-Packard	NETWORKING	6600ml Fixed 2 10Gig Module
 11.2.3.7.11.100	Hewlett-Packard	NETWORKING	ProCurve 6600ml-24G (J9263A)
 11.2.3.7.11.101	Hewlett-Packard	NETWORKING	ProCurve 6600ml-24G-4XG (J9264A)
 11.2.3.7.11.102	Hewlett-Packard	NETWORKING	DCM Controller (J9445A)
@@ -1766,13 +1852,21 @@
 11.2.3.7.11.108	Hewlett-Packard	NETWORKING	ProCurve 6120G/XG (498358-B21)
 11.2.3.7.11.109	Hewlett-Packard	NETWORKING	ProCurve 3500-24-PoE (J9471A)
 11.2.3.7.11.110	Hewlett-Packard	NETWORKING	ProCurve 3500-48-PoE (J9473A)
+11.2.3.7.11.110.1	Hewlett-Packard	NETWORKING	3500-Fixed 10/100Base-TX/SFP PoE Module
+11.2.3.7.11.110.2	Hewlett-Packard	NETWORKING	3500-Fixed 24p 10/100Base-TX PoE Module
 11.2.3.7.11.111	Hewlett-Packard	NETWORKING	ProCurve 3500-24 (J9470A)
 11.2.3.7.11.112	Hewlett-Packard	NETWORKING	ProCurve 3500-48 (J9472A)
+11.2.3.7.11.112.1	Hewlett-Packard	NETWORKING	3500-Fixed 10/100Base-TX/SFP Module
+11.2.3.7.11.112.2	Hewlett-Packard	NETWORKING	3500-Fixed 24p 10/100Base-TX Module
 11.2.3.7.11.113	Hewlett-Packard	NETWORKING	ProCurve 8206zl (J9477A)
 11.2.3.7.11.114	Hewlett-Packard	NETWORKING	ProCurve 3500yl-24G-PoE+ (J9310A)
 11.2.3.7.11.115	Hewlett-Packard	NETWORKING	3500-48G-PoE+ yl
+11.2.3.7.11.115.1	Hewlett-Packard	NETWORKING	3500-Fixed Gig-T/SFP PoE+ Module
+11.2.3.7.11.115.2	Hewlett-Packard	NETWORKING	3500-Fixed 24p Gig-T PoE+ Module
 11.2.3.7.11.117	Hewlett-Packard	NETWORKING	ProCurve 2615-8-PoE (J9565A)
+11.2.3.7.11.117.1	Hewlett-Packard	NETWORKING	2615-Fixed 8-port 10/100-T + 2-port Gigabit module
 11.2.3.7.11.118	Hewlett-Packard	NETWORKING	2915-8G-PoE
+11.2.3.7.11.118.1	Hewlett-Packard	NETWORKING	2915-8-port 10/100/1000-T + 2-port Gigabit module
 11.2.3.7.11.119	Hewlett-Packard	NETWORKING	3800-24G-PoE+-2SFP+
 11.2.3.7.11.120	Hewlett-Packard	NETWORKING	3800-48G-PoE+-4SFP+
 11.2.3.7.11.121	Hewlett-Packard	NETWORKING	3800-24G-2SFP+
@@ -1782,35 +1876,74 @@
 11.2.3.7.11.125	Hewlett-Packard	NETWORKING	3800-48G-4XG
 11.2.3.7.11.126	Hewlett-Packard	NETWORKING	3800-24G-PoE+-2XG
 11.2.3.7.11.127	Hewlett-Packard	NETWORKING	3800-48G-PoE+-4XG
+11.2.3.7.11.128	Hewlett-Packard	NETWORKING	E3800-4-port Stacking Module
 11.2.3.7.11.129	Hewlett-Packard	NETWORKING	2620-24
+11.2.3.7.11.129.1	Hewlett-Packard	NETWORKING	2620-Fixed 24p 10/100 module
 11.2.3.7.11.130	Hewlett-Packard	NETWORKING	2620-24-PPoE+
+11.2.3.7.11.130.1	Hewlett-Packard	NETWORKING	2620-Fixed 24p PPoEP 10/100 module
 11.2.3.7.11.131	Hewlett-Packard	NETWORKING	2620-24-PoE+
+11.2.3.7.11.131.1	Hewlett-Packard	NETWORKING	2620-Fixed 24p PoEP 10/100 module
 11.2.3.7.11.132	Hewlett-Packard	NETWORKING	2620-48
+11.2.3.7.11.132.1	Hewlett-Packard	NETWORKING	2620-Fixed 48p 10/100 module
 11.2.3.7.11.133	Hewlett-Packard	NETWORKING	2620-48-PoE+
+11.2.3.7.11.133.1	Hewlett-Packard	NETWORKING	2620-Fixed 48p PoEP 10/100 module
 11.2.3.7.11.134	Hewlett-Packard	NETWORKING	Procurve 1810-48G
 11.2.3.7.11.136	Hewlett-Packard	NETWORKING	2530-48G-PoE+
+11.2.3.7.11.136.1	Hewlett-Packard	NETWORKING	2530-Fixed 48p PoEP 10/100/1000-T module
 11.2.3.7.11.137	Hewlett-Packard	NETWORKING	2530-24G-PoE+
+11.2.3.7.11.137.1	Hewlett-Packard	NETWORKING	2530-Fixed 24p PoEP 10/100/1000-T module
 11.2.3.7.11.138	Hewlett-Packard	NETWORKING	2530-8G-PoE+
+11.2.3.7.11.138.1	Hewlett-Packard	NETWORKING	2530-Fixed 8p PoEP 10/100/1000-T module
 11.2.3.7.11.139	Hewlett-Packard	NETWORKING	2530-48G
+11.2.3.7.11.139.1	Hewlett-Packard	NETWORKING	2530-Fixed 48p 10/100/1000-T module
 11.2.3.7.11.140	Hewlett-Packard	NETWORKING	2530-24G
+11.2.3.7.11.140.1	Hewlett-Packard	NETWORKING	2530-Fixed 24p 10/100/1000-T module
 11.2.3.7.11.141	Hewlett-Packard	NETWORKING	2530-8G
+11.2.3.7.11.141.1	Hewlett-Packard	NETWORKING	2530-Fixed 8p 10/100/1000-T module
 11.2.3.7.11.142	Hewlett-Packard	NETWORKING	2530-48-PoE+
+11.2.3.7.11.142.1	Hewlett-Packard	NETWORKING	2530-Fixed 48p PoEP 10/100 module
 11.2.3.7.11.143	Hewlett-Packard	NETWORKING	2530-24-PoE+
+11.2.3.7.11.143.1	Hewlett-Packard	NETWORKING	2530-Fixed 24p PoEP 10/100 module
 11.2.3.7.11.144	Hewlett-Packard	NETWORKING	2530-8-PoE+
+11.2.3.7.11.144.1	Hewlett-Packard	NETWORKING	2530-Fixed 8p PoEP 10/100 module
 11.2.3.7.11.145	Hewlett-Packard	NETWORKING	2530-48
+11.2.3.7.11.145.1	Hewlett-Packard	NETWORKING	2530-Fixed 48p 10/100 module
 11.2.3.7.11.146	Hewlett-Packard	NETWORKING	2530-24
+11.2.3.7.11.146.1	Hewlett-Packard	NETWORKING	2530-Fixed 24p 10/100 module
 11.2.3.7.11.147	Hewlett-Packard	NETWORKING	2530-8
+11.2.3.7.11.147.1	Hewlett-Packard	NETWORKING	2530-Fixed 8p 10/100 module
 11.2.3.7.11.148	Hewlett-Packard	NETWORKING	Procurve 1810-8 V2 J9800A
 11.2.3.7.11.149	Hewlett-Packard	NETWORKING	1810-24
 11.2.3.7.11.150	Hewlett-Packard	NETWORKING	1810-8G
 11.2.3.7.11.151	Hewlett-Packard	NETWORKING	1810-24G
 11.2.3.7.11.152	Hewlett-Packard	NETWORKING	2920-24G
+11.2.3.7.11.152.1	Hewlett-Packard	NETWORKING	2920-Fixed 24G module
 11.2.3.7.11.153	Hewlett-Packard	NETWORKING	2920-24G-PoE+
+11.2.3.7.11.153.1	Hewlett-Packard	NETWORKING	2920-Fixed 24G PoE+ module
 11.2.3.7.11.154	Hewlett-Packard	NETWORKING	2920-48G
+11.2.3.7.11.154.1	Hewlett-Packard	NETWORKING	2920-Fixed 48G module
 11.2.3.7.11.155	Hewlett-Packard	NETWORKING	2920-48G-PoE+
+11.2.3.7.11.155.1	Hewlett-Packard	NETWORKING	2920-Fixed 8p PoEP Internal PS 10/100 module
+11.2.3.7.11.155.2	Hewlett-Packard	NETWORKING	2920-10-GbE 2-port CX4
+11.2.3.7.11.155.3	Hewlett-Packard	NETWORKING	2920-10-GbE 2-port SFP+
+11.2.3.7.11.155.4	Hewlett-Packard	NETWORKING	2920-10GBASE-T
+11.2.3.7.11.155.5	Hewlett-Packard	NETWORKING	2920-2 Port Stacking
+11.2.3.7.11.156	Hewlett-Packard	NETWORKING	3800-4G-6SFP+-ONE
+11.2.3.7.11.157	Hewlett-Packard	NETWORKING	3800-4G-8SFP+-ONE
 11.2.3.7.11.158	Hewlett-Packard	NETWORKING	PS1810-8G
 11.2.3.7.11.159	Hewlett-Packard	NETWORKING	PS1810-24G
 11.2.3.7.11.160	Hewlett-Packard	NETWORKING	5406R zl2
+11.2.3.7.11.160.1	Hewlett-Packard	NETWORKING	5400R zl2 Switch Management Module
+11.2.3.7.11.160.2	Hewlett-Packard	NETWORKING	5400R 24-port 10/100/1000BASE-T PoE+ MACsec v3 zl2 Module
+11.2.3.7.11.160.3	Hewlett-Packard	NETWORKING	5400R 24-port 10/100/1000BASE-T MACsec v3 zl2 Module
+11.2.3.7.11.160.4	Hewlett-Packard	NETWORKING	5400R 24-port 1GbE SFP MACsec v3 zl2 Module
+11.2.3.7.11.160.5	Hewlett-Packard	NETWORKING	5400R 12-port 10/100/1000BASE-T PoE+ / 12-port 1GbE SFP MACsec v3 zl2 Module
+11.2.3.7.11.160.6	Hewlett-Packard	NETWORKING	5400R 20-port 10/100/1000BASE-T PoE+ / 4-port 1G/10GbE SFP+ MACsec v3 zl2 Module
+11.2.3.7.11.160.7	Hewlett-Packard	NETWORKING	5400R 20-port 10/100/1000BASE-T PoE+ / 4-port 1/2.5/5/10GBASE-T PoE+ MACsec v3 zl2 Module
+11.2.3.7.11.160.8	Hewlett-Packard	NETWORKING	5400R 20-port 10/100/1000BASE-T PoE+ MACsec / 1-port 40GbE QSFP+ v3 zl2 Module
+11.2.3.7.11.160.9	Hewlett-Packard	NETWORKING	5400R 8-port 1G/10GbE SFP+ MACsec v3 zl2 Module
+11.2.3.7.11.160.10	Hewlett-Packard	NETWORKING	5400R 8-port 1/2.5/5/10GBASE-T PoE+ MACsec v3 zl2 Module
+11.2.3.7.11.160.11	Hewlett-Packard	NETWORKING	5400R 2-port 40GbE QSFP+ v3 zl2 Module
 11.2.3.7.11.161	Hewlett-Packard	NETWORKING	5412R zl2
 11.2.3.7.11.162.1	Hewlett-Packard	NETWORKING	501 Wireless Client Bridge
 11.2.3.7.11.162.2	Hewlett-Packard	NETWORKING	R110 Wireless 11n VPN AM
@@ -1823,15 +1956,86 @@
 11.2.3.7.11.162.11	Hewlett-Packard	NETWORKING	PS110 Wireless 11n VPN AM
 11.2.3.7.11.162.12	Hewlett-Packard	NETWORKING	PS110 Wireless 11n VPN WW
 11.2.3.7.11.163	Hewlett-Packard	NETWORKING	2530-48G-PoE+-2SFP+
+11.2.3.7.11.163.1	Hewlett-Packard	NETWORKING	2530-Fixed 48p PoEP 10/100/1000-T 2SFP+ module
 11.2.3.7.11.164	Hewlett-Packard	NETWORKING	2530-24G-PoE+-2SFP+
+11.2.3.7.11.164.1	Hewlett-Packard	NETWORKING	2530-Fixed 24p PoEP 10/100/1000-T 2SFP+ module
 11.2.3.7.11.165	Hewlett-Packard	NETWORKING	2530-48G-2SFP+
+11.2.3.7.11.165.1	Hewlett-Packard	NETWORKING	2530-Fixed 48p 10/100/1000-T 2SFP+ module
 11.2.3.7.11.166	Hewlett-Packard	NETWORKING	2530-24G-2SFP+
+11.2.3.7.11.166.1	Hewlett-Packard	NETWORKING	2530-Fixed 24p 10/100/1000-T 2SFP+ module
 11.2.3.7.11.167	Hewlett-Packard	NETWORKING	1820-8G
 11.2.3.7.11.168	Hewlett-Packard	NETWORKING	1820-24G
 11.2.3.7.11.169	Hewlett-Packard	NETWORKING	1820-48G
 11.2.3.7.11.170	Hewlett-Packard	NETWORKING	1820-8G-PoE+ (65W)
 11.2.3.7.11.171	Hewlett-Packard	NETWORKING	1820-24G-PoE+ (185W)
 11.2.3.7.11.172	Hewlett-Packard	NETWORKING	1820-48G-PoE+ (370W)
+11.2.3.7.11.173	Hewlett-Packard	NETWORKING	2530-8-PoE+ Internal PS
+11.2.3.7.11.173.1	Hewlett-Packard	NETWORKING	2530-Fixed 8p PoEP Internal PS 10/100 module
+11.2.3.7.11.174.1	Hewlett-Packard	NETWORKING	Aruba 3810M 24G 1-slot
+11.2.3.7.11.174.1.1	Hewlett-Packard	NETWORKING	Aruba 3810M 24G 1-slot Module
+11.2.3.7.11.174.2	Hewlett-Packard	NETWORKING	Aruba 3810M 48G 1-slot
+11.2.3.7.11.174.2.1	Hewlett-Packard	NETWORKING	Aruba 3810M 48G 1-slot Module
+11.2.3.7.11.174.3	Hewlett-Packard	NETWORKING	Aruba 3810M 24G PoE+ 1-slot
+11.2.3.7.11.174.3.1	Hewlett-Packard	NETWORKING	Aruba 3810M 24G PoE+ 1-slot Module
+11.2.3.7.11.174.4	Hewlett-Packard	NETWORKING	Aruba 3810M 48G PoE+ 1-slot
+11.2.3.7.11.174.4.1	Hewlett-Packard	NETWORKING	Aruba 3810M 48G PoE+ 1-slot Module
+11.2.3.7.11.174.5	Hewlett-Packard	NETWORKING	Aruba 3810M 16SFP+ 2-slot
+11.2.3.7.11.174.5.1	Hewlett-Packard	NETWORKING	Aruba 3810M 16SFP+ 2-slot Module
+11.2.3.7.11.174.6	Hewlett-Packard	NETWORKING	Aruba 3810M 40G 8 HPE Smart Rate PoE+ 1-slot
+11.2.3.7.11.174.6.1	Hewlett-Packard	NETWORKING	Aruba 3810M 20G 8 HPE Smart Rate PoE+ 1-slot Module
+11.2.3.7.11.174.7	Hewlett-Packard	NETWORKING	Aruba 3810M 16 HPE Smart Rate PoE+ 2-slot
+11.2.3.7.11.174.7.1	Hewlett-Packard	NETWORKING	Aruba 3810M 16 HPE Smart Rate PoE+ 2-slot Module
+11.2.3.7.11.174.8	Hewlett-Packard	NETWORKING	Aruba 3810M 4-port Stacking Module
+11.2.3.7.11.174.9	Hewlett-Packard	NETWORKING	Aruba 3810 Switch Fan Tray
+11.2.3.7.11.180.1	Hewlett-Packard	NETWORKING	Aruba 1QSFP+ 40GbE Module
+11.2.3.7.11.180.2	Hewlett-Packard	NETWORKING	Aruba 2QSFP+ 40GbE Module
+11.2.3.7.11.180.3	Hewlett-Packard	NETWORKING	Aruba 2 HPE Smart Rate PoE+ Module
+11.2.3.7.11.180.4	Hewlett-Packard	NETWORKING	Aruba 4 HPE Smart Rate PoE+ Module
+11.2.3.7.11.180.5	Hewlett-Packard	NETWORKING	Aruba 2SFP+ Module
+11.2.3.7.11.180.6	Hewlett-Packard	NETWORKING	Aruba 4SFP+ Module
+11.2.3.7.11.181.1	Hewlett-Packard	NETWORKING	Aruba 2930M 2 port Stacking Module
+11.2.3.7.11.181.2	Hewlett-Packard	NETWORKING	Aruba 2930M-24G
+11.2.3.7.11.181.2.1	Hewlett-Packard	NETWORKING	Aruba 2930M-24G Module
+11.2.3.7.11.181.3	Hewlett-Packard	NETWORKING	Aruba 2930M-48G
+11.2.3.7.11.181.3.1	Hewlett-Packard	NETWORKING	Aruba 2930M-48G Module
+11.2.3.7.11.181.4	Hewlett-Packard	NETWORKING	Aruba 2930M-24G-PoE+
+11.2.3.7.11.181.4.1	Hewlett-Packard	NETWORKING	Aruba 2930M-24G-PoE+ Module
+11.2.3.7.11.181.5	Hewlett-Packard	NETWORKING	Aruba 2930M-48G-PoE+
+11.2.3.7.11.181.5.1	Hewlett-Packard	NETWORKING	Aruba 2930M-48G-PoE+ Module
+11.2.3.7.11.181.6	Hewlett-Packard	NETWORKING	Aruba 2930M-24SR-PoE+
+11.2.3.7.11.181.6.1	Hewlett-Packard	NETWORKING	Aruba 2930M-24SR-PoE+ Module
+11.2.3.7.11.181.9	Hewlett-Packard	NETWORKING	Aruba 2930M-40G-8SR-PoE+
+11.2.3.7.11.181.9.1	Hewlett-Packard	NETWORKING	Aruba 2930M-40G-8SR-PoE+ Module
+11.2.3.7.11.181.16	Hewlett-Packard	NETWORKING	Aruba 2930F-8G-PoE+-2SFP+
+11.2.3.7.11.181.16.1	Hewlett-Packard	NETWORKING	Aruba 2930F-8G-PoE+-2SFP+ Module
+11.2.3.7.11.181.18	Hewlett-Packard	NETWORKING	Aruba 2930F-24G-4SFP+
+11.2.3.7.11.181.18.1	Hewlett-Packard	NETWORKING	Aruba 2930F-24G-4SFP+ Module
+11.2.3.7.11.181.19	Hewlett-Packard	NETWORKING	Aruba 2930F-48G-4SFP+
+11.2.3.7.11.181.19.1	Hewlett-Packard	NETWORKING	Aruba 2930F-48G-4SFP+ Module
+11.2.3.7.11.181.20	Hewlett-Packard	NETWORKING	Aruba 2930F-24G-PoE+-4SFP+
+11.2.3.7.11.181.20.1	Hewlett-Packard	NETWORKING	Aruba 2930F-24G-PoE+-4SFP+ Module
+11.2.3.7.11.181.21	Hewlett-Packard	NETWORKING	Aruba 2930F-48G-PoE+-4SFP+
+11.2.3.7.11.181.21.1	Hewlett-Packard	NETWORKING	Aruba 2930F-48G-PoE+-4SFP+ Module
+11.2.3.7.11.181.22	Hewlett-Packard	NETWORKING	Aruba 2930F-24G-4SFP
+11.2.3.7.11.181.22.1	Hewlett-Packard	NETWORKING	Aruba 2930F-24G-4SFP Module
+11.2.3.7.11.181.23	Hewlett-Packard	NETWORKING	Aruba 2930F-48G-4SFP
+11.2.3.7.11.181.23.1	Hewlett-Packard	NETWORKING	Aruba 2930F-48G-4SFP Module
+11.2.3.7.11.181.24	Hewlett-Packard	NETWORKING	Aruba 2930F-24G-PoE+-4SFP
+11.2.3.7.11.181.24.1	Hewlett-Packard	NETWORKING	Aruba 2930F-24G-PoE+-4SFP Module
+11.2.3.7.11.181.25	Hewlett-Packard	NETWORKING	Aruba 2930F-48G-PoE+-4SFP
+11.2.3.7.11.181.25.1	Hewlett-Packard	NETWORKING	Aruba 2930F-48G-PoE+-4SFP Module
+11.2.3.7.11.181.276	Hewlett-Packard	NETWORKING	Aruba 2930F-24G-PoE+-4SFP+-TAA
+11.2.3.7.11.181.276.1	Hewlett-Packard	NETWORKING	Aruba 2930F-24G-PoE+-4SFP+-TAA Module
+11.2.3.7.11.181.277	Hewlett-Packard	NETWORKING	Aruba 2930F-48G-PoE+-4SFP+-TAA
+11.2.3.7.11.181.277.1	Hewlett-Packard	NETWORKING	Aruba 2930F-48G-PoE+-4SFP+-TAA Module
+11.2.3.7.11.182.18	Hewlett-Packard	NETWORKING	Aruba 2540-24G-4SFP+
+11.2.3.7.11.182.18.1	Hewlett-Packard	NETWORKING	Aruba 2540-24G-4SFP+ Module
+11.2.3.7.11.182.19	Hewlett-Packard	NETWORKING	Aruba 2540-48G-4SFP+
+11.2.3.7.11.182.19.1	Hewlett-Packard	NETWORKING	Aruba 2540-48G-4SFP+ Module
+11.2.3.7.11.182.20	Hewlett-Packard	NETWORKING	Aruba 2540-24G-PoE+-4SFP+
+11.2.3.7.11.182.20.1	Hewlett-Packard	NETWORKING	Aruba 2540-24G-PoE+-4SFP+ Module
+11.2.3.7.11.182.21	Hewlett-Packard	NETWORKING	Aruba 2540-48G-PoE+-4SFP+
+11.2.3.7.11.182.21.1	Hewlett-Packard	NETWORKING	Aruba 2540-48G-PoE+-4SFP+ Module
 11.2.3.7.15.1.3.1	Hewlett-Packard	NETWORKING	10500/7500 20G Wired-WLAN module
 11.2.3.7.15.1.3.2	Hewlett-Packard	NETWORKING	830-24P
 11.2.3.7.15.1.3.3	Hewlett-Packard	NETWORKING	830-24P-LSW
@@ -1871,7 +2075,7 @@
 11.2.14.11.7.1.1	Hewlett-Packard	NETWORKING	WAN Secure Router 7001dl
 11.2.14.11.7.1.2	Hewlett-Packard	NETWORKING	WAN Secure Router 7102dl
 11.2.14.11.7.1.3	Hewlett-Packard	NETWORKING	WAN Secure Router 7203dl
-11.2.14.11.7.1.4	Hewlett-Packard	NETWORKING	WAN Router hpSRJ8751A
+11.2.14.11.7.1.4	Hewlett-Packard	NETWORKING	WAN Secure Router 7306dl
 11.2.14.11.8.1.1	Hewlett-Packard	NETWORKING	8116fl
 11.2.14.11.8.1.2	Hewlett-Packard	NETWORKING	8108fl
 11.2.51	Hewlett-Packard	STORAGE	Modular Smart Array
