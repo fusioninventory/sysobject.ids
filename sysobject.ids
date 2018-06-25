@@ -6298,11 +6298,11 @@
 10734.1.3.32	Hewlett-Packard	NETWORKING	TippingPoint 330N
 10734.1.3.34	Hewlett-Packard	NETWORKING	TippingPoint 6100N
 10734.1.3.35	Hewlett-Packard	NETWORKING	TippingPoint 7100NX
-10734.1.3.36 	Hewlett-Packard	NETWORKING	TippingPoint 5200NX
-10734.1.3.44 	Hewlett-Packard	NETWORKING	TippingPoint 2600NX
-10734.1.3.45 	Hewlett-Packard	NETWORKING	TippingPoint 6200NX
-10734.1.3.46 	Hewlett-Packard	NETWORKING	TippingPoint 7500NX
-10734.1.3.47 	Hewlett-Packard	NETWORKING	TippingPoint TPS 440
+10734.1.3.36	Hewlett-Packard	NETWORKING	TippingPoint 5200NX
+10734.1.3.44	Hewlett-Packard	NETWORKING	TippingPoint 2600NX
+10734.1.3.45	Hewlett-Packard	NETWORKING	TippingPoint 6200NX
+10734.1.3.46	Hewlett-Packard	NETWORKING	TippingPoint 7500NX
+10734.1.3.47	Hewlett-Packard	NETWORKING	TippingPoint TPS 440
 10734.1.4.5	Hewlett-Packard	NETWORKING	TippingPoint 2500N
 10734.1.5.1	Hewlett-Packard	NETWORKING	TippingPoint Core Controller
 10734.1.9.1	Hewlett-Packard	NETWORKING	TippingPoint S1020F
@@ -6461,7 +6461,7 @@
 12356.101.1.32401	Fortinet	NETWORKING	Fortigate 3240C
 12356.101.1.36000	Fortinet	NETWORKING	Fortigate 3600
 12356.101.1.36003	Fortinet	NETWORKING	Fortigate 3600A
-12356.101.1.36004 	Fortinet	NETWORKING	Fortigate 3600C
+12356.101.1.36004	Fortinet	NETWORKING	Fortigate 3600C
 12356.101.1.37000	Fortinet	NETWORKING	Fortigate 3700D
 12356.101.1.37001	Fortinet	NETWORKING	Fortigate 3700DX
 12356.101.1.38100	Fortinet	NETWORKING	Fortigate 3810A
@@ -6737,7 +6737,7 @@
 18334.1.1.1.2.1.106.2.2	Konica	PRINTER	bizhub C284E
 18334.1.1.1.2.1.107.2.1	Konica	PRINTER	bizhub C224
 18334.1.1.1.2.1.107.3.1	Konica	PRINTER	bizhub C224
-18334.1.1.1.2.1.110.3.4 Konica  PRINTER bizhub 364E
+18334.1.1.1.2.1.110.3.4	Konica  PRINTER bizhub 364E
 18334.1.1.1.2.1.129.2.2	Konica	PRINTER	bizhub C368
 18334.1.1.1.2.1.144.2.1	Konica	PRINTER	bizhub C458
 
