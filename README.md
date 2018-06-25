@@ -1,6 +1,8 @@
 
 # sysobject.ids
 
+[![Travis Build Status](https://travis-ci.org/fusioninventory/sysobject.ids.svg?branch=master)](https://travis-ci.org/fusioninventory/sysobject.ids)
+
 This repository handles the [FusionInventory](http://fusioninventory.org/) `sysobject.ids` file database.
 
 `sysobject.ids` file database is a text-based file firstly intended to help to
