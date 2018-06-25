@@ -2,5 +2,8 @@
 sudo: false
 dist: trusty
 
-git:
-  depth: false
+install:
+  - true
+
+script:
+  - make test
